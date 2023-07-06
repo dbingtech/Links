@@ -1,0 +1,64 @@
+* {
+  font-family: roboto;
+}
+body {
+  margin: auto;
+  width: 85%;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 1.5rem;
+}
+a {
+  font-size: 1.2rem;
+}
+/*----------For Top 3 Sections Only-------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+.container div a {
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+.container:nth-of-type(even) {
+  background-color: bisque;
+}
+.container:nth-of-type(odd) {
+  background-color: lightgray;
+}
+
+/*---------------Begin separate categories--------*/
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+.categories h2 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+/* --------------Psuedo Classes-----------------*/
+.container div a:hover {
+  text-decoration: underline;
+}
+h2 a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin: auto;
+  padding: 1rem 0;
+}
+@media only screen and (max-width: 525px) {
+  h2 {
+    font-size: 1rem;
+  }
+  .container div a {
+    font-size: 0.8rem;
+  }
+}
