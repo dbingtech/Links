@@ -14,6 +14,7 @@ h2 {
 a {
   font-size: 1.2rem;
 }
+
 /*----------For Top 3 Sections Only-------------*/
 .container {
   display: grid;
@@ -25,7 +26,7 @@ a {
   text-decoration: none;
 }
 .container:nth-of-type(even) {
-  background-color: bisque;
+  background-color: #ffe4c4;
 }
 .container:nth-of-type(odd) {
   background-color: lightgray;
@@ -61,4 +62,16 @@ footer {
   .container div a {
     font-size: 0.8rem;
   }
+}
+/* ------------ Return Home Link ----------*/
+
+.return_home {
+  background-color: #912f56;
+  display: inline;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.return_home a {
+  text-decoration: none;
+  color: White;
 }
