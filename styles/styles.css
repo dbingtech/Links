@@ -1,5 +1,10 @@
+:root {
+  --text: #36454f;
+}
+
 * {
-  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+  color: var(--text);
 }
 body {
   margin: auto;
@@ -14,25 +19,7 @@ h2 {
 a {
   font-size: 1.2rem;
 }
-
-/*----------For Top 3 Sections Only-------------*/
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 0.5rem;
-}
-.container div a {
-  font-size: 1.25rem;
-  text-decoration: none;
-}
-.container:nth-of-type(even) {
-  background-color: #ffe4c4;
-}
-.container:nth-of-type(odd) {
-  background-color: lightgray;
-}
-
-/*---------------Begin separate categories--------*/
+/*---------------Category links at the top--------*/
 .categories {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -41,6 +28,26 @@ a {
 .categories h2 a {
   font-size: 1.5rem;
   text-decoration: none;
+}
+
+/*----------For All Sections-------------*/
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+.container div a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: black;
+}
+.container:nth-of-type(even) {
+  background-color: #ffe4c4;
+  padding: 1rem;
+}
+.container:nth-of-type(odd) {
+  background-color: lightgray;
+  padding: 1rem;
 }
 
 /* --------------Psuedo Classes-----------------*/
