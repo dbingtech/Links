@@ -57,7 +57,7 @@ a {
 h2 a:hover {
   text-decoration: underline;
 }
-
+/*----------------------------------------*/
 footer {
   margin: auto;
   padding: 1rem 0;
@@ -81,4 +81,11 @@ footer {
 .return_home a {
   text-decoration: none;
   color: White;
+}
+
+#multiplesof8 {
+  max-width: 1000px;
+  max-height: 562.5px;
+  width: auto;
+  height: auto;
 }
