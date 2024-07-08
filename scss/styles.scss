@@ -1,44 +1,8 @@
-.ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-medium {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
+@forward 'globals';
+@forward 'util';
+@forward 'pages';
 
 
-:root {
-  --text: #36454f;
-}
-
-* {
-  font-family: "Ubuntu", sans-serif;
-  color: var(--text);
-  text-decoration: none;
-}
-body {
-  margin: auto;
-  width: 85%;
-}
-h1 {
-  text-align: center;
-}
-h2 {
-  font-size: 1.5rem;
-}
-a {
-  font-size: 1.2rem;
-}
 /*---------------Category links at the top--------*/
 .categories {
   display: grid;
@@ -101,11 +65,4 @@ footer {
 .return_home a {
   text-decoration: none;
   color: White;
-}
-
-#multiplesof8 {
-  max-width: 1000px;
-  max-height: 562.5px;
-  width: auto;
-  height: auto;
 }
