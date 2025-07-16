@@ -67,6 +67,17 @@ a {
   gap: 3rem;
 }
 
+#bdilinks {
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 8px;
+}
+
+.chicago_series {
+  display: grid;
+  gap: 16px;
+}
+
 /*---------------Category links at the top--------*/
 .categories {
   display: grid;
@@ -119,10 +130,10 @@ footer {
 
 @media only screen and (max-width: 525px) {
   h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .container div a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 }
 /* ------------ Return Home Link ----------*/
