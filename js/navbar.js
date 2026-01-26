@@ -11,7 +11,7 @@ class NavBar extends HTMLElement {
             <a href="mentor.html">Mentor</a>
             <a href="https://houseofmewsrescue.org">HOMR</a>
             <a href="personal.html">Misc</a>
-            <a href="personal.html">Misc</a>
+            <a href="figma.html">Figma</a>
         </div> 
         `;
     }
