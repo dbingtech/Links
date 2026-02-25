@@ -1,6 +1,7 @@
 /* Add a black background color to the top navigation */
+@use "../utils/colors" as colors;
 .topnav {
-    background-color: #333;
+    background-color: colors.$background;
     overflow: hidden;
   }
   

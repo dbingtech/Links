@@ -1,4 +1,4 @@
-@use '../util' as u;
+@use '../util/colors' as colors;
 
 html {
     box-sizing: border-box;
@@ -7,7 +7,7 @@ html {
 
 * {
     font-family: "Ubuntu", sans-serif;
-    color: var(--text);
+    color: colors.$text;
     text-decoration: none;
   }
 
