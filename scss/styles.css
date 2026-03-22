@@ -39,6 +39,40 @@ a {
   height: auto;
 }
 
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.topline {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+#bdilinks {
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 8px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -118,49 +152,6 @@ a {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.ubuntu-regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-medium {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.topline {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-}
-
-#bdilinks {
-  font-size: 1.5rem;
-  padding: 8px;
-  margin: 8px;
-}
-
-.chicago_series {
-  display: grid;
-  gap: 16px;
-}
-
-.chicago_episode {
-  display: inline;
-}
-
-header a:hover {
-  text-decoration: underline;
 }
 
 /*---------------Category links at the top--------*/
